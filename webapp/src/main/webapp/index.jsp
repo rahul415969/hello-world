@@ -2,22 +2,11 @@
 <html>
 <body>
 
-<h2>An Unordered HTML List</h2>
+<h2>Width and Height Attributes</h2>
 
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>  
+<p>The width and height attributes of the img tag, defines the width and height of the image:</p>
 
-<h2>An Ordered HTML List</h2>
-
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol> 
+<img src="img_girl.jpg" width="500" height="600">
 
 </body>
 </html>
-
