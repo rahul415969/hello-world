@@ -2,8 +2,22 @@
 <html>
 <body>
 
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<h2>An Unordered HTML List</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+<h2>An Ordered HTML List</h2>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
 
 </body>
 </html>
+
