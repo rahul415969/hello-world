@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Width and Height Attributes</h2>
-
-<p>The width and height attributes of the img tag, defines the width and height of the image:</p>
-
-<img src="img_girl.jpg" width="500" height="600">
-
-</body>
-</html>
+.container(onclick)
+  .top
+  .bottom
+  .center
+    h2 Please Sign In
+    input(type="email", placeholder="email")
+    input(type="password", placeholder="password")
+    h2 &nbsp;
