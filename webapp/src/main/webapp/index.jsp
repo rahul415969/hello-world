@@ -4,72 +4,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .btn {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
+  border: none;
+  color: white;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
 }
 
-/* Green */
-.success {
-  border-color: #04AA6D;
-  color: green;
-}
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #46a049;}
 
-.success:hover {
-  background-color: #04AA6D;
-  color: white;
-}
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
 
-/* Blue */
-.info {
-  border-color: #2196F3;
-  color: dodgerblue;
-}
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
 
-.info:hover {
-  background: #2196F3;
-  color: white;
-}
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
 
-/* Orange */
-.warning {
-  border-color: #ff9800;
-  color: orange;
-}
-
-.warning:hover {
-  background: #ff9800;
-  color: white;
-}
-
-/* Red */
-.danger {
-  border-color: #f44336;
-  color: red;
-}
-
-.danger:hover {
-  background: #f44336;
-  color: white;
-}
-
-/* Gray */
-.default {
-  border-color: #e7e7e7;
-  color: black;
-}
-
-.default:hover {
-  background: #e7e7e7;
-}
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
 </style>
 </head>
 <body>
 
-<h1>Outline Buttons</h1>
+<h1>Alert Buttons</h1>
 
 <button class="btn success">Success</button>
 <button class="btn info">Info</button>
@@ -79,3 +39,4 @@
 
 </body>
 </html>
+
